@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"..\obj\main.o"
+"..\obj\stm32f10x_it.o"
+"..\obj\ctrfile.o"
+"..\obj\hmi_driver.o"
+"..\obj\hmi_user_uart.o"
+"..\obj\ad9833.o"
+"..\obj\cmd_queue.o"
+"..\obj\cortrol.o"
+"..\obj\misc.o"
+"..\obj\stm32f10x_gpio.o"
+"..\obj\stm32f10x_rcc.o"
+"..\obj\stm32f10x_usart.o"
+"..\obj\stm32f10x_tim.o"
+"..\obj\stm32f10x_adc.o"
+"..\obj\stm32f10x_dma.o"
+"..\obj\stm32f10x_flash.o"
+"..\obj\startup_stm32f10x_hd.o"
+"..\obj\core_cm3.o"
+"..\obj\system_stm32f10x.o"
+--strict --scatter "..\OBJ\Analyzer.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "..\LIST\Analyzer.map" -o ..\OBJ\Analyzer.axf

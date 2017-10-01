@@ -1,0 +1,19 @@
+..\obj\ad9833.o: ..\..\USER\SRC\AD9833.c
+..\obj\ad9833.o: ..\..\USER\INC\AD9833.h
+..\obj\ad9833.o: ..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+..\obj\ad9833.o: ..\..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h
+..\obj\ad9833.o: D:\Program Files\keil\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\ad9833.o: ..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h
+..\obj\ad9833.o: ..\..\USER\INC\stm32f10x_conf.h
+..\obj\ad9833.o: ..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h
+..\obj\ad9833.o: ..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+..\obj\ad9833.o: ..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h
+..\obj\ad9833.o: ..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h
+..\obj\ad9833.o: ..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h
+..\obj\ad9833.o: ..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h
+..\obj\ad9833.o: ..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h
+..\obj\ad9833.o: ..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h
+..\obj\ad9833.o: ..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h
+..\obj\ad9833.o: ..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h
+..\obj\ad9833.o: ..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h
+..\obj\ad9833.o: ..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h

@@ -1,0 +1,22 @@
+..\obj\cmd_queue.o: ..\..\USER\SRC\cmd_queue.c
+..\obj\cmd_queue.o: ..\..\USER\INC\cmd_queue.h
+..\obj\cmd_queue.o: ..\..\USER\INC\hmi_driver.h
+..\obj\cmd_queue.o: ..\..\USER\INC\hmi_user_uart.h
+..\obj\cmd_queue.o: ..\..\USER\INC\stm32f10x_it.h
+..\obj\cmd_queue.o: ..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+..\obj\cmd_queue.o: ..\..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h
+..\obj\cmd_queue.o: D:\Program Files\keil\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\cmd_queue.o: ..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h
+..\obj\cmd_queue.o: ..\..\USER\INC\stm32f10x_conf.h
+..\obj\cmd_queue.o: ..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h
+..\obj\cmd_queue.o: ..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+..\obj\cmd_queue.o: ..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h
+..\obj\cmd_queue.o: ..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h
+..\obj\cmd_queue.o: ..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h
+..\obj\cmd_queue.o: ..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h
+..\obj\cmd_queue.o: ..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h
+..\obj\cmd_queue.o: ..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h
+..\obj\cmd_queue.o: ..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h
+..\obj\cmd_queue.o: ..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h
+..\obj\cmd_queue.o: ..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h
+..\obj\cmd_queue.o: ..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h
