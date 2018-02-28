@@ -3,7 +3,7 @@
 ..\obj\hmi_user_uart.o: ..\..\USER\INC\stm32f10x_it.h
 ..\obj\hmi_user_uart.o: ..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
 ..\obj\hmi_user_uart.o: ..\..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h
-..\obj\hmi_user_uart.o: D:\Program Files\keil\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\hmi_user_uart.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\hmi_user_uart.o: ..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h
 ..\obj\hmi_user_uart.o: ..\..\USER\INC\stm32f10x_conf.h
 ..\obj\hmi_user_uart.o: ..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h
@@ -22,7 +22,7 @@
 ..\obj\hmi_user_uart.o: ..\..\USER\INC\hmi_driver.h
 ..\obj\hmi_user_uart.o: ..\..\USER\INC\CtrFile.h
 ..\obj\hmi_user_uart.o: ..\..\USER\INC\control.h
-..\obj\hmi_user_uart.o: D:\Program Files\keil\ARM\ARMCC\Bin\..\include\math.h
-..\obj\hmi_user_uart.o: D:\Program Files\keil\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\hmi_user_uart.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+..\obj\hmi_user_uart.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\hmi_user_uart.o: ..\..\USER\INC\main.h
 ..\obj\hmi_user_uart.o: ..\..\USER\INC\AD9833.h

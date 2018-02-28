@@ -7,6 +7,11 @@
 "..\obj\ad9833.o"
 "..\obj\cmd_queue.o"
 "..\obj\cortrol.o"
+"..\obj\ch375.o"
+"..\obj\delay.o"
+"..\obj\deviceio.o"
+"..\obj\sys.o"
+"..\obj\znfat.o"
 "..\obj\misc.o"
 "..\obj\stm32f10x_gpio.o"
 "..\obj\stm32f10x_rcc.o"
@@ -17,8 +22,8 @@
 "..\obj\stm32f10x_flash.o"
 "..\obj\startup_stm32f10x_hd.o"
 "..\obj\core_cm3.o"
-"..\obj\system_stm32f10x.o"
+"..\obj\system_stm32f10x_1.o"
 --strict --scatter "..\OBJ\Analyzer.sct"
---summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list "..\LIST\Analyzer.map" -o ..\OBJ\Analyzer.axf

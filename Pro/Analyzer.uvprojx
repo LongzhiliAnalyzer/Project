@@ -10,12 +10,13 @@
       <TargetName>Analyzer</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
-      <pCCUsed>5060422::V5.06 update 4 (build 422)::ARMCC</pCCUsed>
+      <pCCUsed>5060528::V5.06 update 5 (build 528)::ARMCC</pCCUsed>
+      <uAC6>0</uAC6>
       <TargetOption>
         <TargetCommonOption>
           <Device>STM32F103ZE</Device>
           <Vendor>STMicroelectronics</Vendor>
-          <PackID>Keil.STM32F1xx_DFP.2.2.0</PackID>
+          <PackID>Keil.STM32F1xx_DFP.1.0.5</PackID>
           <PackURL>http://www.keil.com/pack/</PackURL>
           <Cpu>IRAM(0x20000000,0x10000) IROM(0x08000000,0x80000) CPUTYPE("Cortex-M3") CLOCK(12000000) ELITTLE</Cpu>
           <FlashUtilSpec></FlashUtilSpec>
@@ -418,6 +419,31 @@
               <FileName>cortrol.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\USER\SRC\cortrol.c</FilePath>
+            </File>
+            <File>
+              <FileName>ch375.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\USER\SRC\ch375.c</FilePath>
+            </File>
+            <File>
+              <FileName>delay.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\USER\SRC\delay.c</FilePath>
+            </File>
+            <File>
+              <FileName>deviceio.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\USER\SRC\deviceio.c</FilePath>
+            </File>
+            <File>
+              <FileName>sys.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\USER\SRC\sys.c</FilePath>
+            </File>
+            <File>
+              <FileName>znFAT.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\USER\SRC\znFAT.c</FilePath>
             </File>
           </Files>
         </Group>

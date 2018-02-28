@@ -2,7 +2,7 @@
 ..\obj\main.o: ..\..\USER\INC\main.h
 ..\obj\main.o: ..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
 ..\obj\main.o: ..\..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h
-..\obj\main.o: D:\Program Files\keil\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\main.o: ..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h
 ..\obj\main.o: ..\..\USER\INC\stm32f10x_conf.h
 ..\obj\main.o: ..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h
@@ -24,4 +24,8 @@
 ..\obj\main.o: ..\..\USER\INC\CtrFile.h
 ..\obj\main.o: ..\..\USER\INC\AD9833.h
 ..\obj\main.o: ..\..\USER\INC\control.h
-..\obj\main.o: D:\Program Files\keil\ARM\ARMCC\Bin\..\include\math.h
+..\obj\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+..\obj\main.o: ..\..\USER\INC\delay.h
+..\obj\main.o: ..\..\USER\INC\sys.h
+..\obj\main.o: ..\..\USER\INC\ch375.h
+..\obj\main.o: ..\..\USER\INC\CH375INC.h

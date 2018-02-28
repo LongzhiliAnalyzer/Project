@@ -3,71 +3,128 @@
 <pre>
 <h1>µVision Build Log</h1>
 <h2>Tool Versions:</h2>
-IDE-Version: ¦ÌVision V5.23.0.0
+IDE-Version: ¦ÌVision V5.24.2.0
 Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
-License Information: Jiang Zhaotian, HIT, LIC=W96Z9-4TYRS-77ZRP-M9GAB-8UHXB-X54EP
+License Information: yuan Microsoft, Microsoft, LIC=8VRJJ-UYD6A-TGT7T-RXUVZ-5RI75-1JXT4
  
 Tool Versions:
-Toolchain:       MDK-ARM Professional  Version: 5.23
-Toolchain Path:  D:\Program Files\keil\ARM\ARMCC\Bin
-C Compiler:      Armcc.exe V5.06 update 4 (build 422)
-Assembler:       Armasm.exe V5.06 update 4 (build 422)
-Linker/Locator:  ArmLink.exe V5.06 update 4 (build 422)
-Library Manager: ArmAr.exe V5.06 update 4 (build 422)
-Hex Converter:   FromElf.exe V5.06 update 4 (build 422)
-CPU DLL:         SARMCM3.DLL V5.23
-Dialog DLL:      DCM.DLL V1.15.0.0
-Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
-Dialog DLL:      TCM.DLL V1.27.0.0
+Toolchain:       MDK-ARM Plus  Version: 5.24.1
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DCM.DLL V1.16.0.0
+Target DLL:      CMSIS_AGDI.dll V1.28.3.0
+Dialog DLL:      TCM.DLL V1.32.0.0
  
 <h2>Project:</h2>
-D:\Gitproject\Analyzer\Analyzer\Project\Pro\Analyzer.uvprojx
-Project File Date:  09/25/2017
+D:\EÅÌ±¸·Ý\yyy\×è¿¹·ÖÎöÒÇ18-2-28\Analyzer\Project\Pro\Analyzer.uvprojx
+Project File Date:  02/28/2018
 
 <h2>Output:</h2>
-*** Using Compiler 'V5.06 update 4 (build 422)', folder: 'D:\Program Files\keil\ARM\ARMCC\Bin'
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
 Rebuild target 'Analyzer'
-compiling stm32f10x_it.c...
-compiling main.c...
-compiling CtrFile.c...
-compiling hmi_user_uart.c...
 compiling AD9833.c...
+compiling stm32f10x_it.c...
 compiling hmi_driver.c...
+compiling hmi_user_uart.c...
+compiling CtrFile.c...
 compiling cmd_queue.c...
-compiling misc.c...
+compiling main.c...
+compiling ch375.c...
+compiling delay.c...
 compiling cortrol.c...
+..\..\USER\SRC\cortrol.c(144): warning:  #177-D: variable "buf3"  was declared but never referenced
+  	unsigned char buf3[] = {0};
+..\..\USER\SRC\cortrol.c(145): warning:  #177-D: variable "len"  was declared but never referenced
+  	u32 len=0;
+..\..\USER\SRC\cortrol.c(148): warning:  #550-D: variable "b"  was set but never used
+  	u8 a=0,b=0,temp=0,temp2=0,res=0;
+..\..\USER\SRC\cortrol.c(150): warning:  #177-D: variable "ENTER"  was declared but never referenced
+  	UINT8 ENTER[]="\r\n";
+..\..\USER\SRC\cortrol.c(154): warning:  #550-D: variable "write_test"  was set but never used
+  	UINT8 write_test[50] = "0";	 
+..\..\USER\SRC\cortrol.c(155): warning:  #550-D: variable "write_test1"  was set but never used
+  	UINT8 write_test1[50] = "0";
+..\..\USER\SRC\cortrol.c(156): warning:  #550-D: variable "write_test2"  was set but never used
+  	UINT8 write_test2[50] = "0";
+..\..\USER\SRC\cortrol.c(157): warning:  #550-D: variable "write_test3"  was set but never used
+  	UINT8 write_test3[50] = "0";
+..\..\USER\SRC\cortrol.c(158): warning:  #550-D: variable "write_test4"  was set but never used
+  	UINT8 write_test4[50] = "0";
+..\..\USER\SRC\cortrol.c(159): warning:  #177-D: variable "write_test5"  was declared but never referenced
+  	UINT8 write_test5[] = "Fre    Imp		Ang\r\n";
+..\..\USER\SRC\cortrol.c(160): warning:  #177-D: variable "Head_String"  was declared but never referenced
+  	UINT8 Head_String[] = 
+..\..\USER\SRC\cortrol.c(163): warning:  #177-D: variable "Head_String1"  was declared but never referenced
+  	UINT8 Head_String1[] = "Fp          Zmax       F2     	\r\n ";	
+..\..\USER\SRC\cortrol.c(164): warning:  #177-D: variable "Head_String2"  was declared but never referenced
+  	UINT8 Head_String2[] = "Qm          keff       F2-F1     	\r\n ";	
+..\..\USER\SRC\cortrol.c(165): warning:  #177-D: variable "Head_String3"  was declared but never referenced
+  	UINT8 Head_String3[] = "CT          C1         C0     	\r\n ";	
+..\..\USER\SRC\cortrol.c(166): warning:  #177-D: variable "Head_String4"  was declared but never referenced
+  	UINT8 Head_String4[] = "L1 \r\n";	
+..\..\USER\SRC\cortrol.c(416): warning:  #177-D: variable "buf"  was declared but never referenced
+  	unsigned char buf[] = {0};
+..\..\USER\SRC\cortrol.c(417): warning:  #550-D: variable "res"  was set but never used
+  	u8 res=0;
+..\..\USER\SRC\cortrol.c(418): warning:  #550-D: variable "len"  was set but never used
+  	UINT32 len=0;
+..\..\USER\SRC\cortrol.c(419): warning:  #177-D: variable "i"  was declared but never referenced
+  	u16 i=0;
+..\..\USER\SRC\cortrol.c(420): warning:  #177-D: variable "j"  was declared but never referenced
+  	int j = 0;
+..\..\USER\SRC\cortrol.c(421): warning:  #177-D: variable "a"  was declared but never referenced
+      u8 a=0;
+..\..\USER\SRC\cortrol.c(422): warning:  #177-D: variable "write_data"  was declared but never referenced
+  	UINT8 write_data[20] = "0";
+..\..\USER\SRC\cortrol.c(1280): warning:  #177-D: variable "i"  was declared but never referenced
+  	u16 i=0;	
+..\..\USER\SRC\cortrol.c: 23 warnings, 0 errors
+compiling deviceio.c...
+compiling misc.c...
 compiling stm32f10x_gpio.c...
+compiling znFAT.c...
 compiling stm32f10x_rcc.c...
 compiling stm32f10x_usart.c...
 compiling stm32f10x_tim.c...
 compiling stm32f10x_adc.c...
-assembling startup_stm32f10x_hd.s...
+compiling sys.c...
 compiling stm32f10x_dma.c...
-compiling core_cm3.c...
+assembling startup_stm32f10x_hd.s...
 compiling stm32f10x_flash.c...
+compiling core_cm3.c...
 compiling system_stm32f10x.c...
 linking...
-Program Size: Code=36628 RO-data=1216 RW-data=272 ZI-data=57960  
+Program Size: Code=46552 RO-data=1636 RW-data=396 ZI-data=58564  
 FromELF: creating hex file...
-"..\OBJ\Analyzer.axf" - 0 Error(s), 0 Warning(s).
+"..\OBJ\Analyzer.axf" - 0 Error(s), 23 Warning(s).
 
 <h2>Software Packages used:</h2>
 
 Package Vendor: ARM
-                http://www.keil.com/pack/ARM.CMSIS.5.1.1.pack
-                ARM::CMSIS:CORE:5.0.2
+                http://www.keil.com/pack/ARM.CMSIS.5.0.1.pack
+                ARM.CMSIS.5.0.1
                 CMSIS (Cortex Microcontroller Software Interface Standard)
-   * Component: CORE Version: 5.0.2
+   * Component: CORE Version: 5.0.1
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.1.0.5.pack
+                Keil.STM32F1xx_DFP.1.0.5
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
 
 <h2>Collection of Component include folders:</h2>
   .\RTE\_Analyzer
-  D:\Program Files\keil\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include
-  D:\Program Files\keil\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
 
 <h2>Collection of Component Files used:</h2>
 
-   * Component: ARM::CMSIS:CORE:5.0.2
-Build Time Elapsed:  00:00:10
+   * Component: ARM::CMSIS:CORE:5.0.1
+Build Time Elapsed:  00:00:06
 </pre>
 </body>
 </html>

@@ -2,7 +2,7 @@
 ..\obj\cortrol.o: ..\..\USER\INC\control.h
 ..\obj\cortrol.o: ..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
 ..\obj\cortrol.o: ..\..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h
-..\obj\cortrol.o: D:\Program Files\keil\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\cortrol.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\cortrol.o: ..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h
 ..\obj\cortrol.o: ..\..\USER\INC\stm32f10x_conf.h
 ..\obj\cortrol.o: ..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h
@@ -21,7 +21,16 @@
 ..\obj\cortrol.o: ..\..\USER\INC\hmi_driver.h
 ..\obj\cortrol.o: ..\..\USER\INC\hmi_user_uart.h
 ..\obj\cortrol.o: ..\..\USER\INC\stm32f10x_it.h
-..\obj\cortrol.o: D:\Program Files\keil\ARM\ARMCC\Bin\..\include\math.h
+..\obj\cortrol.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
 ..\obj\cortrol.o: ..\..\USER\INC\AD9833.h
-..\obj\cortrol.o: D:\Program Files\keil\ARM\ARMCC\Bin\..\include\stdio.h
-..\obj\cortrol.o: D:\Program Files\keil\ARM\ARMCC\Bin\..\include\stdarg.h
+..\obj\cortrol.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\cortrol.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\cortrol.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
+..\obj\cortrol.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+..\obj\cortrol.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+..\obj\cortrol.o: ..\..\USER\INC\znfat.h
+..\obj\cortrol.o: ..\..\USER\INC\mytype.h
+..\obj\cortrol.o: ..\..\USER\INC\config.h
+..\obj\cortrol.o: ..\..\USER\INC\cc_macro.h
+..\obj\cortrol.o: ..\..\USER\INC\delay.h
+..\obj\cortrol.o: ..\..\USER\INC\sys.h
