@@ -336,7 +336,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F10X_HD,USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\..\Libraries\STM32F10x_StdPeriph_Driver\inc;..\..\Libraries\CMSIS\CM3\CoreSupport;..\..\USER\INC;..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x</IncludePath>
+              <IncludePath>..\..\Libraries\STM32F10x_StdPeriph_Driver\inc;..\..\Libraries\CMSIS\CM3\CoreSupport;..\..\USER\INC;..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x;..\..\FILELIBM_CX</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -421,29 +421,14 @@
               <FilePath>..\..\USER\SRC\cortrol.c</FilePath>
             </File>
             <File>
-              <FileName>ch375.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\USER\SRC\ch375.c</FilePath>
-            </File>
-            <File>
               <FileName>delay.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\USER\SRC\delay.c</FilePath>
             </File>
             <File>
-              <FileName>deviceio.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\USER\SRC\deviceio.c</FilePath>
-            </File>
-            <File>
               <FileName>sys.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\USER\SRC\sys.c</FilePath>
-            </File>
-            <File>
-              <FileName>znFAT.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\USER\SRC\znFAT.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -514,6 +499,21 @@
               <FileName>system_stm32f10x.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\USER\SRC\system_stm32f10x.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>FILELIBM_CX</GroupName>
+          <Files>
+            <File>
+              <FileName>CH375DRV.C</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\FILELIBM_CX\CH375DRV.C</FilePath>
+            </File>
+            <File>
+              <FileName>CH375HFM.LIB</FileName>
+              <FileType>4</FileType>
+              <FilePath>..\..\FILELIBM_CX\CH375HFM.LIB</FilePath>
             </File>
           </Files>
         </Group>
